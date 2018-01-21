@@ -1,0 +1,2 @@
+_JAVA_OPTIONS='-Dawt.useSystemAAFontSettings=lcd'
+QT_QPA_PLATFORMTHEME="qt5ct"

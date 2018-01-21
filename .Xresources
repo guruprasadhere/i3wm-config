@@ -1,0 +1,41 @@
+#if __has_include(".extend.Xresources")
+#include ".extend.Xresources"
+#endif
+
+! ^ The above lines are no comments!
+! Leave them as they are if a file ~/.extend.Xresources is being used on your system.
+! config can be added there or also here below.
+! For comments use "!"
+
+Xft.dpi: 96
+Xft.antialias: true
+Xft.hinting: true
+Xft.rgba: rgb
+Xft.autohint: false
+Xft.hintstyle: hintslight
+Xft.lcdfilter: lcddefault
+
+
+!URxvt.font: 9X15 
+URxvt.font: xft:Droid\\Sans\\mono:size=10
+!URxvt.letterSpace: -1
+URxvt.scrollBar:false
+!URxvt*inheritPixmap: true
+!URxvt*transparent: true
+!URxvt*shading: 0 to 99 darkens, 101 to 200 lightens
+URxvt*shading: 101
+urxvt*foreground: black
+urxvt*background: orange
+
+
+
+
+XTerm*background: #ffffff
+XTerm*foreground: #000000
+XTerm*pointerColor: #16A085
+XTerm*faceName: Fixed
+XTerm*faceSize: 11
+XTerm*selectToClipboard: true
+XTerm.vt100.geometry:   60x20
+Xterm*scrollBar: true
+
